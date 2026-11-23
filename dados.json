@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "atualizado": "2026-11-23T19:30:38",
+ "atualizado": "2026-11-23T19:30:49",
  "wifi": {
   "rede": "Jonas",
   "nota": "A senha do Wi-Fi fica na recepção do rancho — é só pedir."
@@ -65,7 +65,7 @@
     "rect": [
      0.12,
      0.26,
-     0.14380110861094342,
+     0.08760221722188685,
      0.30000000000000004
     ]
    },
