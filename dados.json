@@ -1,191 +1,191 @@
 {
-  "versao": 1,
-  "atualizado": "2026-11-22T21:24:42",
-  "wifi": {
-    "rede": "Jonas",
-    "nota": "A senha do Wi-Fi fica na recepção do rancho — é só pedir."
+ "versao": 1,
+ "atualizado": "2026-11-23T18:26:12",
+ "wifi": {
+  "rede": "Jonas",
+  "nota": "A senha do Wi-Fi fica na recepção do rancho — é só pedir."
+ },
+ "preco_dia": 40,
+ "pix": {
+  "chave": "62994716314",
+  "tipo": "celular",
+  "nome": "CAMPING DO INDIO",
+  "cidade": "SAO JORGE"
+ },
+ "ambientes": [
+  {
+   "id": "area-camping",
+   "nome": "Área de camping",
+   "cor": "#8bf0ab"
   },
-  "preco_dia": 40,
-  "pix": {
-    "chave": "62994716314",
-    "tipo": "celular",
-    "nome": "CAMPING DO INDIO",
-    "cidade": "SAO JORGE"
+  {
+   "id": "rancho",
+   "nome": "Rancho",
+   "cor": "#ffbe5c"
   },
-  "ambientes": [
-    {
-      "id": "area-camping",
-      "nome": "Área de camping",
-      "cor": "#8bf0ab"
-    },
-    {
-      "id": "rancho",
-      "nome": "Rancho",
-      "cor": "#ffbe5c"
-    },
-    {
-      "id": "fogueira",
-      "nome": "Área da fogueira",
-      "cor": "#e07a52"
-    },
-    {
-      "id": "entrada",
-      "nome": "Entrada e veredas",
-      "cor": "#7fb2c9"
-    }
-  ],
-  "mapa": {
-    "foto": "fotos/mapa-semente.jpg",
-    "nota": "Mapa de exemplo. Suba a sua foto do campo no painel do administrador e redesenhe as zonas.",
-    "zonas": [
-      {
-        "id": "z1",
-        "nome": "Barraca 1",
-        "ambiente": "area-camping",
-        "cor": "#8bf0ab",
-        "status": "livre",
-        "poligono": [
-          [
-            0.12,
-            0.3
-          ],
-          [
-            0.3,
-            0.26
-          ],
-          [
-            0.32,
-            0.52
-          ],
-          [
-            0.14,
-            0.56
-          ]
-        ]
-      },
-      {
-        "id": "z2",
-        "nome": "Barraca 2",
-        "ambiente": "area-camping",
-        "cor": "#8bf0ab",
-        "status": "livre",
-        "poligono": [
-          [
-            0.4,
-            0.24
-          ],
-          [
-            0.58,
-            0.22
-          ],
-          [
-            0.6,
-            0.48
-          ],
-          [
-            0.42,
-            0.52
-          ]
-        ]
-      },
-      {
-        "id": "z3",
-        "nome": "Área da fogueira",
-        "ambiente": "fogueira",
-        "cor": "#e07a52",
-        "status": "livre",
-        "poligono": [
-          [
-            0.44,
-            0.66
-          ],
-          [
-            0.66,
-            0.62
-          ],
-          [
-            0.7,
-            0.88
-          ],
-          [
-            0.48,
-            0.92
-          ]
-        ]
-      },
-      {
-        "id": "z4",
-        "nome": "Ponto do rancho",
-        "ambiente": "rancho",
-        "cor": "#ffbe5c",
-        "status": "livre",
-        "poligono": [
-          [
-            0.74,
-            0.18
-          ],
-          [
-            0.93,
-            0.2
-          ],
-          [
-            0.91,
-            0.5
-          ],
-          [
-            0.72,
-            0.48
-          ]
-        ]
-      }
+  {
+   "id": "fogueira",
+   "nome": "Área da fogueira",
+   "cor": "#e07a52"
+  },
+  {
+   "id": "entrada",
+   "nome": "Entrada e veredas",
+   "cor": "#7fb2c9"
+  }
+ ],
+ "mapa": {
+  "foto": "fotos/mapa-semente.jpg",
+  "nota": "Mapa de exemplo. Suba a sua foto do campo no painel do administrador e redesenhe as zonas.",
+  "zonas": [
+   {
+    "id": "z1",
+    "nome": "Barraca 1",
+    "ambiente": "area-camping",
+    "cor": "#8bf0ab",
+    "status": "livre",
+    "poligono": [
+     [
+      0.12,
+      0.3
+     ],
+     [
+      0.3,
+      0.26
+     ],
+     [
+      0.32,
+      0.52
+     ],
+     [
+      0.14,
+      0.56
+     ]
     ]
+   },
+   {
+    "id": "z2",
+    "nome": "Barraca 2",
+    "ambiente": "area-camping",
+    "cor": "#8bf0ab",
+    "status": "livre",
+    "poligono": [
+     [
+      0.4,
+      0.24
+     ],
+     [
+      0.58,
+      0.22
+     ],
+     [
+      0.6,
+      0.48
+     ],
+     [
+      0.42,
+      0.52
+     ]
+    ]
+   },
+   {
+    "id": "z3",
+    "nome": "Área da fogueira",
+    "ambiente": "fogueira",
+    "cor": "#e07a52",
+    "status": "livre",
+    "poligono": [
+     [
+      0.44,
+      0.66
+     ],
+     [
+      0.66,
+      0.62
+     ],
+     [
+      0.7,
+      0.88
+     ],
+     [
+      0.48,
+      0.92
+     ]
+    ]
+   },
+   {
+    "id": "z4",
+    "nome": "Ponto do rancho",
+    "ambiente": "rancho",
+    "cor": "#ffbe5c",
+    "status": "livre",
+    "poligono": [
+     [
+      0.74,
+      0.18
+     ],
+     [
+      0.93,
+      0.2
+     ],
+     [
+      0.91,
+      0.5
+     ],
+     [
+      0.72,
+      0.48
+     ]
+    ]
+   }
+  ]
+ },
+ "galeria": [
+  {
+   "arquivo": "fotos/f1.jpg",
+   "legenda": "Placa pintada à mão",
+   "ambiente": "entrada"
   },
-  "galeria": [
-    {
-      "arquivo": "fotos/f1.jpg",
-      "legenda": "Placa pintada à mão",
-      "ambiente": "entrada"
-    },
-    {
-      "arquivo": "fotos/f2.jpg",
-      "legenda": "Um pouco de casa",
-      "ambiente": "entrada"
-    },
-    {
-      "arquivo": "fotos/f3.jpg",
-      "legenda": "Dia a dia no camping",
-      "ambiente": "area-camping"
-    },
-    {
-      "arquivo": "fotos/f4.jpg",
-      "legenda": "Dia a dia no camping",
-      "ambiente": "area-camping"
-    },
-    {
-      "arquivo": "fotos/f5.jpg",
-      "legenda": "Por entre as árvores",
-      "ambiente": "area-camping"
-    },
-    {
-      "arquivo": "fotos/f6.jpg",
-      "legenda": "Noite com as luzes acesas",
-      "ambiente": "fogueira"
-    },
-    {
-      "arquivo": "fotos/f7.jpg",
-      "legenda": "Roda de fogueira",
-      "ambiente": "fogueira"
-    },
-    {
-      "arquivo": "fotos/f8.jpg",
-      "legenda": "Ano novo na vila",
-      "ambiente": "rancho"
-    },
-    {
-      "arquivo": "fotos/f9.jpg",
-      "legenda": "Rede de rede no rancho",
-      "ambiente": "rancho"
-    }
-  ],
-  "reservas": []
+  {
+   "arquivo": "fotos/f2.jpg",
+   "legenda": "Um pouco de casa",
+   "ambiente": "entrada"
+  },
+  {
+   "arquivo": "fotos/f3.jpg",
+   "legenda": "Dia a dia no camping",
+   "ambiente": "area-camping"
+  },
+  {
+   "arquivo": "fotos/f4.jpg",
+   "legenda": "Dia a dia no camping",
+   "ambiente": "area-camping"
+  },
+  {
+   "arquivo": "fotos/f5.jpg",
+   "legenda": "Por entre as árvores",
+   "ambiente": "area-camping"
+  },
+  {
+   "arquivo": "fotos/f6.jpg",
+   "legenda": "Noite com as luzes acesas",
+   "ambiente": "fogueira"
+  },
+  {
+   "arquivo": "fotos/f7.jpg",
+   "legenda": "Roda de fogueira",
+   "ambiente": "fogueira"
+  },
+  {
+   "arquivo": "fotos/f8.jpg",
+   "legenda": "Ano novo na vila",
+   "ambiente": "rancho"
+  },
+  {
+   "arquivo": "fotos/f9.jpg",
+   "legenda": "Rede de rede no rancho",
+   "ambiente": "rancho"
+  }
+ ],
+ "reservas": []
 }
